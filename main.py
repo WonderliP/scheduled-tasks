@@ -5,9 +5,9 @@ from twilio.rest import Client
 MY_LAT = 46.4843023
 MY_LONG = 30.7322878
 OWM_ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
-API_KEY = os.environ.get(OWM_API_KEY)
-account_sid = os.environ.get(TWILIO_ACCOUNT_SID)
-auth_token = os.environ.get(TWILIO_AUTH_TOKEN)
+API_KEY = os.environ.get("OWM_API_KEY")
+account_sid = os.environ.get("TWILIO_ACCOUNT_SID")
+auth_token = os.environ.get("TWILIO_AUTH_TOKEN")
 
 weather_params = {
     "lat": 43.2630018,
