@@ -10,8 +10,8 @@ account_sid = os.environ.get("TWILIO_ACCOUNT_SID")
 auth_token = os.environ.get("TWILIO_AUTH_TOKEN")
 
 weather_params = {
-    "lat": 43.2630018,
-    "lon": -2.9350039,
+    "lat": MY_LAT,
+    "lon": MY_LONG,
     "appid": API_KEY,
     "cnt": 5,
 }
